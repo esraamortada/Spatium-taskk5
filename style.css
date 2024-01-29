@@ -732,22 +732,12 @@ a{
     row-gap: 32px;
     width: 80%;
     margin: auto;
-   padding-bottom: 250px;
+
+   
 }
  
 
-/* .items{
 
-
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      
-  
-} */
-  
   
   .contain{
       display: flex;
@@ -802,6 +792,7 @@ a{
     width: 80%;
     margin: auto;
     justify-content: space-around;
+    padding-bottom: 40px;
 }
 .feedback-card{
     width: 20%;
@@ -811,7 +802,7 @@ a{
     text-align: center;
    
     
-    /* padding: 20px; */
+
 }
 
 .feedback-card p{
@@ -901,32 +892,38 @@ a{
 }
 /*solve problemsssssssssssssssssssssssssssssssssssssssssss*/
 .video{
-  width: 50%;
+  width: 60%;
   margin: auto;
-  position: absolute;
-  top: -200px;
-  left: 25%;
+
+
+
   
+
 }
 .video video{
     width: 100%;
+    height: auto;
+    
 
 }
-
+.video-container{
+    /* background-color: rgb(25, 25, 53); */
+    background-image: linear-gradient(#fff 50%,  rgb(25, 25, 53) 50%);
+    
+}
 .solve-container{
-    position: relative;
+
     background-color: rgb(25, 25, 53);
-    border-top-right-radius: 20%;
-    /* border-top-left-radius: 25%; */
+    /* border-top-right-radius: 20%; */
+
     color: #fff;
     display: flex;
     flex-direction: column;
     width: 100%;
-padding: 60px 0px;
+    padding: 60px 0px 60px 0px;
 
     row-gap: 80px;
-   /* height: 100vh; */
-    /* padding: 400px 0px 0px 0px;  */
+   
 }
 .solve-container h2{
     text-align: center;
@@ -1172,6 +1169,13 @@ padding: 60px 0px;
     border-bottom-right-radius: 20%;
    
 }
+.pricing-card:first-child{
+    background-color: transparent;
+}
+.pricing-card:first-child button{
+    background-color: #000;
+    color: #fff;
+}
 .pricing-card{
     width: 20%;
     background-color: #fff;
@@ -1181,6 +1185,8 @@ padding: 60px 0px;
     flex-direction: column;
     row-gap: 24px;
     padding: 40px 0px;
+    
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .hr2{
     width: 80%;
